@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teamwork20 grop10</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+
+      /* color: #2d2a6e; */
+      /* color: #96ae00;
+    font-family: "Schoolbell";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4; */
+    }
+  </style>
+  <body>
+    <div class="fixed-top">
+      <!------Top bar-------->
+      <div
+        class="text-white py-2 d-none d-md-block"
+        style="background-color: #2d2a6e"
+      >
+        <div class="container d-flex justify-content-between">
+          <span
+            >Due to the <strong> COVID-19 </strong> epidemic, orders may be
+            processed with a slight delay.</span
+          >
+
+          <div class="faq">
+            <ul>
+              <li><a href="#"> Store Location </a></li>
+              <li><a href="#">Order Tracking </a></li>
+
+              <li><a href="#">FAQS</a></li>
+              <li>
+                <a href="#">English </a>
+              </li>
+              <li><a href="#">USE</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--------End top bar--------->
+
+      <!------Navbar---------->
+      <div class="navbar bg-light navbar-expand-lg py-4">
+        <div class="container">
+          <a href="index.html"
+            ><img loading="lazy" src="./emges/logo.png" alt="logo"
+          /></a>
+
+          <div
+            class="offcanvas offcanvas-end bg-white ps-3"
+            id="navbarNav"
+            style="margin-left: 130px; width: 250px"
+          >
+            <ul class="navbar-nav ms-md-5">
+              <li class="nav-item dropdown ms-2">
+                <a
+                  href="./index.html"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  >Home</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./index.html" class="dropdown-item">Home Page 1</a>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Home Page 1</a></li>
+                  <li><a href="#" class="dropdown-item">Home Page 2</a></li>
+                  <li><a href="#" class="dropdown-item">Home Page 3</a></li>
+                  <li><a href="#" class="dropdown-item">Home Page 4</a></li>
+                  <li><a href="#" class="dropdown-item">Home Page 5</a></li>
+                  <li><a href="#" class="dropdown-item">Home Page 5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-2">
+                <a
+                  href="./shop.html"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  >Shop</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./shop.html" class="dropdown-item"
+                      >Shop With Banner</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Shop Without Banner</a>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Shop Version</a></li>
+                  <li>
+                    <a href="#" class="dropdown-item">Shop Left sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">Shop Right sidebar</a>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Shop List view</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-2">
+                <a
+                  href="./blog.html"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  >Blog</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./blog.html" class="dropdown-item">Big image</a>
+                  </li>
+                  <li>
+                    <a href="./rightsideber.html" class="dropdown-item"
+                      >Right sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./leftsideber.html" class="dropdown-item"
+                      >Left sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./singleblog.html" class="dropdown-item"
+                      >Single Post</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ms-2">
+                <a
+                  href="./pages.html"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="./pages.html" class="dropdown-item"
+                      >Shop Location One</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./pages.html" class="dropdown-item"
+                      >Shop Location Two</a
+                    >
+                  </li>
+                  <li><a href="#" class="dropdown-item">FAQs</a></li>
+                  <li><a href="#" class="dropdown-item">Checkout</a></li>
+                  <li><a href="#" class="dropdown-item">Cart Page</a></li>
+                  <li><a href="#" class="dropdown-item">Wishlist</a></li>
+                  <li><a href="#" class="dropdown-item">Sign In</a></li>
+                  <li><a href="#" class="dropdown-item">Coming soon</a></li>
+                  <li><a href="#" class="dropdown-item">Page 404</a></li>
+                </ul>
+              </li>
+              <li class="link">
+                <a href="./aboutus.html" class="nav-link ms-2">AboutUs</a>
+              </li>
+              <li class="link">
+                <a href="./contactus.html" class="nav-link ms-2"> ContactUs</a>
+              </li>
+              <div class="ms-md-5">
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <svg
+                        style="width: 20px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                          d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                        />
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="icon"
+                      style="background-color: rgb(255, 191, 191)"
+                    >
+                      <a href="./singup.html">
+                        <svg
+                          style="width: 20px"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                          <path
+                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="icon"
+                      style="background-color: rgb(191, 255, 210)"
+                    >
+                      <svg
+                        style="width: 20px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                          d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+                        />
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="icon"
+                      style="background-color: rgb(236, 191, 255)"
+                    >
+                      <svg
+                        onclick="toggleCartPopup()"
+                        style="width: 20px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                      >
+                        <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                          d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                        />
+                      </svg>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+          <buttom
+            class="navbar-toggler"
+            type="buttom"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarNav"
+            style="margin-left: 160px"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </buttom>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5">
+      <div class="row pt-5" style="margin-top: 30px">
+        <div class="col-10 mt-5">
+          <h6 class="text-secondary">
+            <a
+              href="./index.html"
+              class="text-decoration-none banner-taitle"
+              style="color: #2d2a6e"
+            >
+              Home ></a
+            >
+            Contact Us
+          </h6>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4 me-5">
+        <div class="col-md-12 px-5">
+          <div class="text-center mt-5 px-2">
+            <a
+              href="#"
+              class="btn rounded-pill px-3 btn-sm text-center"
+              style="background-color: #96ae00; color: white"
+              >CONTACT US
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row jusitify-content-center">
+        <div class="col-md-12">
+          <h2 class="text-center mt-3" style="color: #2d2a6e">
+            Looking For Orfarm?
+          </h2>
+        </div>
+        <div class="col-md-12">
+          <p class="text-center">
+            The liber tempor cum soluta nobis eleifend option congue doming quod
+            mazim.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid rounded"
+            src="./emges/contact-big-bg1.jpg"
+            alt=""
+          />
+          <h5 class="mt-2" style="color: #2d2a6e">Rue Pelleport - Paris</h5>
+          <p>
+            Add: Heaven Stress, Beverly Melbourne <br />Phone: (+100) 123 456
+            7890
+            <br />
+            Email: Orfarm@google.com
+          </p>
+        </div>
+
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid rounded"
+            src="./emges/contact-big-bg2.jpg"
+            alt=""
+          />
+          <h5 class="mt-2" style="color: #2d2a6e">Prospect - New York</h5>
+          <p>
+            Add: Heaven Stress, Beverly Melbourne <br />Phone: (+100) 123 456
+            7890
+            <br />
+            Email: Orfarm@google.com
+          </p>
+        </div>
+
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid rounded"
+            src="./emges/contact-big-bg3.jpg"
+            alt=""
+          />
+          <h5 class="mt-2" style="color: #2d2a6e">Budapest - Hungary</h5>
+          <p>
+            Add: Heaven Stress, Beverly Melbourne <br />Phone: (+100) 123 456
+            7890
+            <br />
+            Email: Orfarm@google.com
+          </p>
+        </div>
+
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid rounded"
+            src="./emges/contact-big-bg4.jpg"
+            alt=""
+          />
+          <h5 class="mt-2" style="color: #2d2a6e">Kastrup - Denmark</h5>
+          <p>
+            Add: Heaven Stress, Beverly Melbourne <br />Phone: (+100) 123 456
+            7890
+            <br />
+            Email: Orfarm@google.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6049.133184074815!2d-73.829099!3d40.705542!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260bae9761ab5%3A0x5e0af6209f1f7fa9!2sKew%20Gardens%20Dental%20Arts!5e0!3m2!1sen!2sbd!4v1724325715165!5m2!1sen!2sbd"
+              height="750px"
+              class="w-100"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-5 p-5">
+          <div class="row mt-5">
+            <div class="col-md-12" style="color: #2d2a6e">
+              <h4>LEAVE A REPLY</h4>
+            </div>
+          </div>
+
+          <form
+            action="https://formsubmit.co/sulaimanshwehna@gmail.com"
+            method="post"
+          >
+            <div class="row">
+              <div class="col-md-6 mt-2">
+                <input
+                  type="text"
+                  placeholder="Enter your name*"
+                  fdprocessedid="iybx2g"
+                  class="p-3 rounded-pill border px-5 form-control form-control-md"
+                />
+              </div>
+              <div class="col-md-6 mt-2">
+                <input
+                  type="text"
+                  placeholder="Enter your mail**"
+                  fdprocessedid="umpjjq"
+                  class="p-3 rounded-pill border px-5 form-control form-control-md"
+                />
+              </div>
+              <div class="col-md-6 mt-2">
+                <input
+                  type="text"
+                  placeholder="Enter your  number*"
+                  fdprocessedid="1wr1di"
+                  class="p-3 rounded-pill border px-5 form-control form-control-md"
+                />
+              </div>
+              <div class="col-md-6 mt-2">
+                <input
+                  type="text"
+                  placeholder="Website*"
+                  fdprocessedid="u1878v"
+                  class="p-3 rounded-pill border px-5 form-control form-control-md"
+                />
+              </div>
+              <div class="col-md-12 mt-2">
+                <textarea
+                  cols="30"
+                  rows="6"
+                  class="p-3 rounded border px-5 form-control form-control-md"
+                >
+  Enter your Massage*</textarea
+                >
+              </div>
+              <div class="col-md-12 mt-2">
+                <input type="checkbox" checked="checked" />
+                I am bound by the terms of the
+                <span
+                  ><a href="#" style="color: #96ae00"
+                    >service accept privacy policy</a
+                  ></span
+                >
+              </div>
+              <div class="row pb-5">
+                <div class="col-md-6 px-5">
+                  <div class="text-white text-center mt-5 px-2">
+                    <button
+                      type="submit"
+                      href="#"
+                      class="btn btn-rounded rounded-pill px-4 py-2 me-4"
+                      style="background-color: #96ae00; color: white"
+                    >
+                      SEAND MESSAGE
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--start footer-->
+    <div class="container-fluid bg-footer">
+      <div class="row justify-content-center">
+        <div class="col-md-2 mt-5">
+          <div class="text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="26"
+              viewBox="0 0 21 26"
+              fill="none"
+            >
+              <path
+                d="M7.60002 19.5996L3.68874 24.6284C3.57124 24.7795 3.6789 24.9996 3.87029 24.9996H5.70038C5.76395 24.9996 5.82469 24.9733 5.86817 24.9269L9.1956 21.3777C9.29886 21.2675 9.47842 21.285 9.55843 21.4131L11.8 24.9996"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M18.062 18.4425L17.6114 17.8429L18.062 18.4425ZM1.01352 8.18135L0.264562 8.14181L1.01352 8.18135ZM1.69442 5.15241L2.38638 5.44171L1.69442 5.15241ZM2.56801 4.86376L2.18125 5.50634L2.56801 4.86376ZM20.0979 16.2291L19.4629 15.83L20.0979 16.2291ZM19.8678 15.2762L20.2545 14.6336L19.8678 15.2762ZM16 2.79951L16.7161 2.57647L16.5229 1.95622L15.8814 2.05895L16 2.79951ZM18.8852 14.5841L19.1082 15.3002L20.5404 14.8541L20.3173 14.138L18.8852 14.5841ZM10.7875 9.07822L10.3635 9.69686L11.6008 10.5449L12.0248 9.92622L10.7875 9.07822ZM15.1859 0.356392C14.8307 0.143281 14.37 0.258455 14.1569 0.61364C13.9438 0.968825 14.0589 1.42952 14.4141 1.64263L15.1859 0.356392ZM17.4141 3.44263C17.7693 3.65574 18.23 3.54057 18.4431 3.18538C18.6562 2.8302 18.5411 2.3695 18.1859 2.15639L17.4141 3.44263ZM3.11614 4.10335L2.37557 4.22196L2.61278 5.70308L3.35334 5.58448L3.11614 4.10335ZM19.4629 15.83C18.9731 16.6093 18.3486 17.2889 17.6114 17.8429L18.5125 19.0421C19.3965 18.3778 20.1458 17.5622 20.7329 16.6283L19.4629 15.83ZM17.6114 17.8429C16.7053 18.5239 15.6426 19.0047 14.4804 19.2537L14.7947 20.7204C16.1614 20.4275 17.4259 19.8586 18.5125 19.0421L17.6114 17.8429ZM14.4804 19.2537C13.3177 19.5029 12.0771 19.5154 10.829 19.2844L10.556 20.7594C11.9879 21.0244 13.4284 21.0133 14.7947 20.7204L14.4804 19.2537ZM10.829 19.2844C9.58067 19.0534 8.35172 18.5837 7.21419 17.899L6.44066 19.1842C7.72642 19.9581 9.12417 20.4944 10.556 20.7594L10.829 19.2844ZM7.21419 17.899C6.07666 17.2144 5.05595 16.33 4.21146 15.2969L3.0501 16.2463C4.00316 17.4122 5.1549 18.4103 6.44066 19.1842L7.21419 17.899ZM4.21146 15.2969C3.36697 14.2638 2.71756 13.1051 2.29824 11.8891L0.880179 12.378C1.359 13.7667 2.09705 15.0804 3.0501 16.2463L4.21146 15.2969ZM2.29824 11.8891C1.87895 10.6731 1.69883 9.42641 1.76248 8.22089L0.264562 8.14181C0.19021 9.55009 0.401331 10.9893 0.880179 12.378L2.29824 11.8891ZM1.76248 8.22089C1.81424 7.24039 2.02638 6.30277 2.38638 5.44171L1.00246 4.86311C0.573671 5.8887 0.325061 6.99589 0.264562 8.14181L1.76248 8.22089ZM2.38638 5.44171C2.37682 5.46457 2.34674 5.49998 2.29723 5.51588C2.25047 5.53089 2.20689 5.52178 2.18125 5.50634L2.95477 4.22117C2.25196 3.79816 1.33231 4.07418 1.00246 4.86311L2.38638 5.44171ZM20.7329 16.6283C21.1689 15.9346 20.9199 15.034 20.2545 14.6336L19.481 15.9188C19.4585 15.9052 19.4527 15.8897 19.4513 15.884C19.4493 15.876 19.4478 15.854 19.4629 15.83L20.7329 16.6283ZM2.18125 5.50634L19.481 15.9188L20.2545 14.6336L2.95477 4.22117L2.18125 5.50634ZM15.2839 3.02256L18.8852 14.5841L20.3173 14.138L16.7161 2.57647L15.2839 3.02256ZM12.0248 9.92622L16.6186 3.22352L15.3814 2.37551L10.7875 9.07822L12.0248 9.92622ZM14.4141 1.64263L17.4141 3.44263L18.1859 2.15639L15.1859 0.356392L14.4141 1.64263ZM3.35334 5.58448L16.1186 3.54007L15.8814 2.05895L3.11614 4.10335L3.35334 5.58448Z"
+                fill="white"
+              />
+            </svg>
+            <h4
+              class="text-white mt-2"
+              style="
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+
+                margin-bottom: 2px;
+              "
+            >
+              Fast Delivery
+            </h4>
+            <span class="text-secondary">Across West & East India</span>
+          </div>
+        </div>
+        <div class="col-md-2 mt-5">
+          <div class="text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M1 11.312V6.24951C1 4.8688 2.11929 3.74951 3.5 3.74951H5.8125H7.01562M20.25 7.53076V6.24951C20.25 4.8688 19.1307 3.74951 17.75 3.74951H15.4375"
+                stroke="white"
+                stroke-width="1.5"
+              />
+              <path
+                d="M1 13.3745H4.4375C5.57659 13.3745 6.5 14.2979 6.5 15.437V15.437C6.5 16.5761 5.57659 17.4995 4.4375 17.4995H1V13.3745Z"
+                stroke="#96AE00"
+                stroke-width="1.5"
+              />
+              <path
+                d="M5.125 7.18701L7.07354 1.3414C7.1416 1.13723 7.33266 0.999512 7.54788 0.999512H15.4621C15.7943 0.999512 16.0342 1.31746 15.9429 1.63687L14.75 5.81201L14.0625 7.87451"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M15.4375 22.9995H3.8C2.2536 22.9995 1 21.7459 1 20.1995V10.6745C1 9.12811 2.2536 7.87451 3.8 7.87451H20.2C21.7464 7.87451 23 9.12811 23 10.6745V20.1995C23 21.7459 21.7464 22.9995 20.2 22.9995H16.8289H15.0437"
+                stroke="white"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h4
+              class="text-white mt-2"
+              style="
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+
+                margin-bottom: 2px;
+              "
+            >
+              safe payment
+            </h4>
+            <span class="text-secondary">100% Secure Payment</span>
+          </div>
+        </div>
+        <div class="col-md-2 mt-5">
+          <div class="text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="26"
+              viewBox="0 0 22 26"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.9136 11.1186C13.4987 11.1186 13.973 10.6444 13.973 10.0593C13.973 9.47427 13.4987 9 12.9136 9C12.3286 9 11.8543 9.47427 11.8543 10.0593C11.8543 10.6444 12.3286 11.1186 12.9136 11.1186ZM6.17723 9.33386C6.44463 9.01752 6.91784 8.97784 7.23418 9.24524L7.73982 9.67264C8.05616 9.94004 8.09583 10.4133 7.82844 10.7296C7.56104 11.0459 7.08782 11.0856 6.77148 10.8182L6.26585 10.3908C5.94951 10.1234 5.90983 9.6502 6.17723 9.33386ZM8.76861 11.5243C9.03601 11.208 9.50922 11.1683 9.82556 11.4357L10.0152 11.596L10.7736 12.2371L11.2793 12.6645L15.3243 16.0837C15.6407 16.3511 15.6803 16.8243 15.4129 17.1407C15.1455 17.457 14.6723 17.4967 14.356 17.2293L10.3109 13.8101L9.80529 13.3826L9.04684 12.7415L8.85722 12.5813C8.54088 12.3139 8.50121 11.8407 8.76861 11.5243ZM9.73569 16.4152C9.73569 17.0003 9.26141 17.4745 8.67637 17.4745C8.09132 17.4745 7.61705 17.0003 7.61705 16.4152C7.61705 15.8302 8.09132 15.3559 8.67637 15.3559C9.26141 15.3559 9.73569 15.8302 9.73569 16.4152Z"
+                fill="white"
+              />
+              <path
+                d="M1 16.2498V7.44689C1 5.10711 2.96513 3.27467 5.2392 3.49391L6.34923 3.60093C7.29689 3.6923 8.20196 3.17777 8.62764 2.30566C9.47738 0.564779 11.9026 0.564779 12.7524 2.30566C13.178 3.17777 14.0831 3.6923 15.0308 3.60093L16.1408 3.49391C18.4149 3.27467 20.38 5.10712 20.38 7.44689V16.2498C20.38 17.4224 19.874 18.5351 18.9976 19.2895L13.1836 24.2942C11.7419 25.5353 9.63808 25.5353 8.1964 24.2942L2.3824 19.2895C1.50602 18.5351 1 17.4224 1 16.2498Z"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M1 7.44689C1 5.10711 2.96513 3.27467 5.2392 3.49391L6.34923 3.60093C7.29689 3.6923 8.20196 3.17777 8.62764 2.30566C9.47738 0.564779 11.9026 0.564779 12.7524 2.30566C13.178 3.17777 14.0831 3.6923 15.0308 3.60093L16.1408 3.49391C18.4149 3.27467 20.38 5.10712 20.38 7.44689"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="square"
+              />
+            </svg>
+            <h4
+              class="text-white mt-2"
+              style="
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+              "
+            >
+              Online Discount
+            </h4>
+            <span class="text-secondary">Add Multi-buy Discount</span>
+          </div>
+        </div>
+        <div class="col-md-2 mt-5">
+          <div class="text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="27"
+              viewBox="0 0 29 27"
+              fill="none"
+            >
+              <path
+                d="M6.17009 17.8355V17.8355C4.72593 18.1125 3.33072 17.1662 3.0538 15.7221L1.52729 7.76113C1.23608 6.2424 2.22918 4.77553 3.74791 4.48432C5.96625 4.05895 9.0962 3.45878 11.4595 3.00562C13.8489 2.54746 17.033 1.99738 19.2646 1.61969C20.7605 1.3665 22.1793 2.35756 22.4651 3.84765C22.5751 4.42155 22.694 5.04177 22.8125 5.65941"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M6.32495 10.0525V19.6376C6.32495 21.1081 7.517 22.3001 8.98747 22.3001H9.31039C9.86728 22.3001 10.3187 22.7516 10.3187 23.3085C10.3187 24.4062 10.4114 26.0303 11.5087 25.9995C12.2532 25.9787 12.5193 25.0686 12.9242 24.4435L13.4848 23.5779C14.0009 22.7811 14.8856 22.3001 15.835 22.3001H23.8976C25.9562 22.3001 27.6251 20.6315 27.6251 18.5729V10.1412C27.6251 8.12823 26.3093 6.37355 24.2969 6.325C22.1286 6.27268 19.1054 6.32501 16.975 6.32501H10.0519C7.99327 6.32501 6.32495 7.99388 6.32495 10.0525Z"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <circle cx="11.6501" cy="14.3127" r="1.33126" fill="#96AE00" />
+              <circle cx="16.9751" cy="14.3127" r="1.33126" fill="#96AE00" />
+              <circle cx="22.3003" cy="14.3127" r="1.33126" fill="#96AE00" />
+            </svg>
+            <h4
+              class="text-white mt-2"
+              style="
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+                margin-bottom: 2px;
+              "
+            >
+              Help Center
+            </h4>
+            <span class="text-secondary">Dedicated 24/7 Support</span>
+          </div>
+        </div>
+        <div class="col-md-2 mt-5">
+          <div class="text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="24"
+              viewBox="0 0 23 24"
+              fill="none"
+            >
+              <path
+                d="M20.8916 19.0583L9.06589 19.2218C4.62937 19.2831 1 15.7035 1 11.2666V11.2666"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <rect
+                x="1"
+                y="2.4668"
+                width="20.5333"
+                height="20.5333"
+                rx="2.8"
+                stroke="white"
+                stroke-width="1.5"
+              />
+              <path
+                d="M6.8667 3.93333V1"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M15.6667 3.93333V1"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <line
+                x1="5.6001"
+                y1="13.1748"
+                x2="11.8001"
+                y2="13.1748"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <line
+                x1="5.6001"
+                y1="9.32471"
+                x2="14.3668"
+                y2="9.32471"
+                stroke="#96AE00"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+            <h4
+              class="text-white mt-2"
+              style="
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+                margin-bottom: 2px;
+              "
+            >
+              Curated items
+            </h4>
+            <span class="text-secondary">From Handpicked Sellers</span>
+          </div>
+        </div>
+        <div
+          class="col-md-11 mt-5"
+          style="border-bottom: 1px solid #484492"
+        ></div>
+        <div class="col-md-3 mt-5">
+          <h4
+            class="text-white mt-2"
+            style="
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2px;
+            "
+          >
+            Let Us Help You
+          </h4>
+          <p class="mt-3" style="color: #b0afcc">
+            If you have any question, <br />
+            please contact us at :
+            <span>
+              <a style="color: #96ae00" class="text-decoration-none" href="#"
+                >support@example.com</a
+              ></span
+            >
+          </p>
+          <h4
+            style="
+              color: #b0afcc;
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2px;
+            "
+          >
+            Social Media:
+          </h4>
+          <ul class="d-flex mt-3" style="list-style: none; margin-left: -30px">
+            <li>
+              <a href="#"
+                ><i class="fab fa-facebook-f m-1" style="color: white"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fab fa-twitter m-1" style="color: white"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fab fa-youtube m-1" style="color: white"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fab fa-pinterest-p m-1" style="color: white"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fab fa-skype m-1" style="color: white"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4
+            class="text-white mt-5"
+            style="
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2px;
+            "
+          >
+            Looking for Orfarm?
+          </h4>
+          <address class="mt-3" style="color: #b0afcc">
+            68 St. Vicent Place, Glasgow, Greater Newyork NH2012, UK.
+          </address>
+          <p class="mt-4" style="color: #b0afcc">
+            Monday – Friday: 8:10 AM – 6:10 PM Saturday: 10:10 AM – 06:10 PM
+            Sunday: Close
+          </p>
+        </div>
+
+        <div class="col-md-2">
+          <h4
+            class="text-white mt-5"
+            style="
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2px;
+            "
+          >
+            HOT CATEGORIES
+          </h4>
+
+          <div class="mt-3">
+            <h6>
+              <a class="renk" href="#" style="text-decoration: none"
+                >Fruits & Vegetables</a
+              >
+            </h6>
+            <h6>
+              <a class="renk" href="#" style="text-decoration: none"
+                >Dairy Products</a
+              >
+            </h6>
+            <h6>
+              <a class="renk" href="#" style="text-decoration: none"
+                >Package Foods</a
+              >
+            </h6>
+
+            <h6>
+              <a class="renk" href="#" style="text-decoration: none"
+                >Beverage</a
+              >
+            </h6>
+            <h6>
+              <a class="renk" href="#" style="text-decoration: none"
+                >Health & Wellness</a
+              >
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="d-none d-md-block">
+            <div class="vr mt-5" style="color: #484492; height: 200px"></div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h4
+            class="text-white mt-5"
+            style="
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 12px;
+              margin-bottom: 2px;
+            "
+          >
+            Our newsletter
+          </h4>
+          <p
+            class="text-white mt-3"
+            style="font-weight: 400; font-size: 16px; margin-bottom: 15px"
+          >
+            Subscribe to the Orfarm mailing list to receive updates <br />
+            on new arrivals & other information.
+          </p>
+          <form action="">
+            <span style="position: absolute" class="m-3 mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="15"
+                viewBox="0 0 18 15"
+                fill="none"
+              >
+                <path
+                  d="M9 1.5H14.2C15.7464 1.5 17 2.7536 17 4.3V10.7C17 12.2464 15.7464 13.5 14.2 13.5H3.8C2.2536 13.5 1 12.2464 1 10.7V4.3C1 2.7536 2.2536 1.5 3.8 1.5H5"
+                  stroke="#ACAFB7"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M5 5.5L8.4 8.05019C8.75557 8.31688 9.24449 8.31688 9.60006 8.05019L13.0001 5.5"
+                  stroke="#ACAFB7"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <input
+              type="email"
+              placeholder="Your email address..."
+              class="p-3 rounded border-0 px-5 form-control form-control-md"
+            />
+            <button
+              style="
+                position: absolute;
+                background-color: #96ae00;
+                right: 90px;
+                margin-top: -50px;
+                color: white;
+              "
+              type="submit"
+              class="round btn p-2 px-4 border-0"
+            >
+              Subscribe
+            </button>
+          </form>
+          <div class="d-flex mt-2">
+            <input type="checkbox" class="text-white mt-1" />
+            <label for="" class="text-white mt-1 ms-2" style="font-size: 14px"
+              >I accept terms & conditions & privacy policy.</label
+            >
+          </div>
+        </div>
+        <div class="mt-5" style="border-bottom: 1px solid #484492"></div>
+
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-7 mt-4">
+            <span
+              style="
+                color: #b0afcc;
+                font-weight: 400;
+                font-size: 16px;
+                margin-bottom: 15px;
+              "
+              >Copyright ©
+              <a href="#" style="color: #96ae00; text-decoration: none"
+                >ORFARM</a
+              >
+              all rights reserved. Powered by
+              <a href="#" style="color: #96ae00; text-decoration: none"
+                >ThemePure</a
+              >.</span
+            >
+          </div>
+          <div class="col-md-4 mt-4 mb-4">
+            <img src="./image/footer-payment (1).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end footer-->
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+      "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  </body>
+</html>
